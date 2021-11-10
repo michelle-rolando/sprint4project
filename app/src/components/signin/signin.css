@@ -1,0 +1,63 @@
+@import url('http://fonts.cdnfonts.com/css/silkscreen');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+.SignIn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+
+.SignInH2{
+    font-family: 'Silkscreen', sans-serif;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.SignInP{
+    font-family: 'Fira Code', monospace;
+    font-size: 11px;
+    color: #FFF;
+}
+
+.SignInButton{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #4285F4;
+    border-radius: 3px;
+    padding: 0 2rem;
+    margin-top: 2.5rem;
+}
+
+.googleLogo{
+    background-color: #FFF;
+    padding: 0.5rem;
+    padding-bottom: 0;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.SignInGoogle{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.VersionP{
+    font-family: 'Fira Code', monospace;
+    font-size: 11px;
+    color: #60265B;
+    margin-top: 2rem;
+}
+
+.SignInSpan{
+    color: #F50D5A;
+}
