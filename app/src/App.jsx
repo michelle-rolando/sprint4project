@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
-import {LoggedOut} from './pages/loggedout/index'; //por preguntar
+import { BrowserRouter as Router} from 'react-router-dom';
+import AppRouter from './router/appRouter';
 
 function App() {
   return (
     <div className="App">
-      <LoggedOut/>
+      <Router>
+        <AppRouter/>
+      </Router>
     </div>
   );
 }
