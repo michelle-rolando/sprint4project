@@ -1,7 +1,7 @@
 import React from 'react';
-import {LoggedOut} from '../pages/loggedout/index'; //por preguntar
+import LoggedOut from '../pages/loggedout/loggedout';
 import { Route, Routes } from 'react-router-dom';
-import {Register} from '../pages/register';
+import Register from '../pages/register/register';
 
 function AppRouter() {
   return (

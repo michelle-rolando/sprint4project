@@ -1,6 +1,6 @@
 import React from 'react'
 import './loggedout.css'
-import {SignIn} from '../../components/signin/index';
+import SignIn from '../../components/signin/signin';
 
 function LoggedOut() {
     return (
